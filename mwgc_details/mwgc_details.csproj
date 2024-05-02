@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <!--Project was exported from assembly: D:\Users\nikzh\Downloads\mwgc_details.exe-->
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{A3EB0DC6-C685-4F90-A33D-66067F7D4740}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <AssemblyName>mwgc</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <ApplicationVersion>1.2.7318.38444</ApplicationVersion>
+    <FileAlignment>512</FileAlignment>
+    <RootNamespace>mwgc</RootNamespace>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="Compiler.cs" />
+    <Compile Include="CompilerOptions.cs" />
+    <Compile Include="UniqueList.cs" />
+    <Compile Include="DataCollector.cs" />
+    <Compile Include="RealEngine\RealType.cs" />
+    <Compile Include="RealEngine\RealChunk.cs" />
+    <Compile Include="RealEngine\FixedLenString.cs" />
+    <Compile Include="RealEngine\RealVector2.cs" />
+    <Compile Include="RealEngine\RealVector3.cs" />
+    <Compile Include="RealEngine\RealVector4.cs" />
+    <Compile Include="RealEngine\RealMatrix.cs" />
+    <Compile Include="RealEngine\RealVertex.cs" />
+    <Compile Include="RealEngine\RealMountPoint.cs" />
+    <Compile Include="RealEngine\RealShadingGroup.cs" />
+    <Compile Include="RealEngine\RealGeometryInfo.cs" />
+    <Compile Include="RealEngine\RealGeometryPartInfo.cs" />
+    <Compile Include="RealEngine\RealGeometryPartData.cs" />
+    <Compile Include="RealEngine\RealGeometryPart.cs" />
+    <Compile Include="RealEngine\RealFile.cs" />
+    <Compile Include="RealEngine\RealGeometryFile.cs" />
+    <Compile Include="RawGeometry\RawString.cs" />
+    <Compile Include="RawGeometry\RawObjectHeader.cs" />
+    <Compile Include="RawGeometry\RawHeader.cs" />
+    <Compile Include="RawGeometry\RawVertex.cs" />
+    <Compile Include="RawGeometry\RawFace.cs" />
+    <Compile Include="RawGeometry\RawObject.cs" />
+    <Compile Include="RawGeometry\RawGeometryFile.cs" />
+    <Compile Include="AseLib\AseReader.cs" />
+    <Compile Include="AseLib\AseStringTokenizer.cs" />
+    <Compile Include="AseLib\AseNode.cs" />
+    <Compile Include="AseLib\AseExtendedNode.cs" />
+    <Compile Include="AseLib\AseVertex.cs" />
+    <Compile Include="AseLib\AseFace.cs" />
+    <Compile Include="AseLib\AseTransform.cs" />
+    <Compile Include="AseLib\AseFaceList.cs" />
+    <Compile Include="AseLib\AseNormals.cs" />
+    <Compile Include="AseLib\AseTextureFaceList.cs" />
+    <Compile Include="AseLib\AseTextureVertexList.cs" />
+    <Compile Include="AseLib\AseVertexList.cs" />
+    <Compile Include="AseLib\AseBaseVertexList.cs" />
+    <Compile Include="AseLib\AseMesh.cs" />
+    <Compile Include="AseLib\AseGeometryObject.cs" />
+    <Compile Include="AseLib\AseSubMaterial.cs" />
+    <Compile Include="AseLib\AseMaterial.cs" />
+    <Compile Include="AseLib\AseMaterialList.cs" />
+    <Compile Include="AseLib\AseRoot.cs" />
+    <Compile Include="AseLib\AseException.cs" />
+    <Compile Include="AseLib\AseFile.cs" />
+    <Compile Include="AssemblyInfo.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
