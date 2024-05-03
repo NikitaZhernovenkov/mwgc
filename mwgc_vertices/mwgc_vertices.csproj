@@ -7,7 +7,7 @@
     <ProjectGuid>{1013371C-11E2-4DF5-A099-5F22E3113470}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AssemblyName>mwgc</AssemblyName>
-    <TargetFrameworkVersion>v4.8.1</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <ApplicationVersion>1.2.8468.42059</ApplicationVersion>
     <FileAlignment>512</FileAlignment>
     <RootNamespace>mwgc</RootNamespace>
